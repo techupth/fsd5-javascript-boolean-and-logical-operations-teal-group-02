@@ -1,8 +1,11 @@
-let isOver18;
-let hasCriminalBlacklist;
+let isOver18 = true;
+let hasCriminalBlacklist = false;
 
 let isAllow;
 
-// Start coding here
+isAllow = isOver18 && !hasCriminalBlacklist;
 
 console.log(isAllow);
+
+//true : can join the Event
+//false : can't join the Event
